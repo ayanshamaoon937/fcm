@@ -1,0 +1,227 @@
+$custom-color-1: #09205d;
+$custom-color-2: #4c99f5;
+
+// If you want to override Bootstrap's default colors, uncomment these instead:
+
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+:root {
+  --custom-color-1: #09205d;
+  --custom-color-2: #4c99f5;
+}
+
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('../fonts/gill-sans.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gill Sans Light';
+  src: url('../fonts/gill-sans-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+.ff-baskervville {
+  font-family: "Baskervville", serif;
+}
+
+/* TOP BAR */
+.top-bar {
+  background-color: var(--custom-color-1);
+  font-size: 0.85rem;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background-image: url('../images/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    
+    .nav-links a {
+      font-size: 0.9rem;
+      letter-spacing: 1px;
+      transition: opacity 0.3s;
+      
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .hero-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    padding-bottom: 10vh; /* Optical centering */
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .hero-text {
+    font-size: 1.1rem;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .btn-hero {
+    background-color: var(--custom-color-2);
+    color: white;
+    font-weight: bold;
+    padding: 0.8rem 2.5rem;
+    border: none;
+    border-radius: 0;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    width: fit-content;
+    
+    &:hover {
+      background-color: darken(#4c99f5, 10%);
+      color: white;
+    }
+  }
+}
+
+.ff-gill-sans {
+  font-family: 'Gill Sans', sans-serif;
+}
+
+.ff-gill-sans-light {
+  font-family: 'Gill Sans Light', sans-serif;
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--custom-color-1);
+  color: #ffffff;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+
+  .footer-heading {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+
+  .footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+    transition: opacity 0.3s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .footer-text {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+  }
+
+  .social-icons a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    margin-right: 1.25rem;
+    transition: opacity 0.3s;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .newsletter-input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    border-radius: 0;
+    padding: 0.5rem 0;
+    margin-bottom: 1.5rem;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      border-bottom-color: #ffffff;
+      background: transparent;
+      color: #ffffff;
+    }
+    
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+  }
+
+  .btn-subscribe {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 0.85rem;
+    padding: 0.6rem 2rem;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+
+    &:hover {
+      background: #ffffff;
+      color: var(--custom-color-1);
+    }
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 1.5rem;
+    margin-top: 3rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* Continuous Marquee styles */
+.services-swiper .swiper-wrapper {
+  transition-timing-function: linear !important;
+}
+
+.services-swiper .service-item img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
