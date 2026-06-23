@@ -12529,11 +12529,12 @@ body {
   flex-direction: column;
 }
 .hero-section .hero-content {
+  padding-top: 180px;
+  padding-bottom: 60px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 10vh;
 }
 .hero-section .hero-title {
   line-height: 1.1;
@@ -12551,7 +12552,8 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.4);
   transition: background-color 0.3s ease;
   z-index: 99999;
-  position: absolute; /* Added to position header over heros by default */
+  position: absolute;
+  /* Added to position header over heros by default */
   width: 100%;
   top: 0;
 }

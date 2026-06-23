@@ -21,7 +21,7 @@
                     <a href="news-detail.php" class="text-decoration-none d-block blog-thumb h-100">
                         <div class="card border-0 h-100 bg-transparent">
                             <div class="overflow-hidden news-card-img-wrapper">
-                                <img src="assets/images/blog/robert3-568.jpg" class="w-100 h-100 news-card-img" alt="FCM'S ROBERT STEWART RECIEVES A THIRD PRESTIGIOUS AWARD">
+                                <img src="assets/images/news/news-1.webp" class="w-100 h-100 news-card-img" alt="FCM'S ROBERT STEWART RECIEVES A THIRD PRESTIGIOUS AWARD">
                             </div>
                             <div class="card-body pt-4">
                                 <p class="ff-gill-sans-light text-muted mb-2 news-card-date">June 15, 2026</p>
@@ -35,7 +35,7 @@
                     <a href="news-detail.php" class="text-decoration-none d-block blog-thumb h-100">
                         <div class="card border-0 h-100 bg-transparent">
                             <div class="overflow-hidden news-card-img-wrapper">
-                                <img src="assets/images/blog/robertboq2-427.jpg" class="w-100 h-100 news-card-img" alt="FCM'S ROBERT STEWART RECIEVES ANOTHER PRESTIGIOUS AWARD">
+                                <img src="assets/images/news/news-2.webp" class="w-100 h-100 news-card-img" alt="FCM'S ROBERT STEWART RECIEVES ANOTHER PRESTIGIOUS AWARD">
                             </div>
                             <div class="card-body pt-4">
                                 <p class="ff-gill-sans-light text-muted mb-2 news-card-date">June 25, 2024</p>
@@ -49,7 +49,7 @@
                     <a href="news-detail.php" class="text-decoration-none d-block blog-thumb h-100">
                         <div class="card border-0 h-100 bg-transparent">
                             <div class="overflow-hidden news-card-img-wrapper">
-                                <img src="assets/images/blog/icwci-conf-2022-95.jpg" class="w-100 h-100 news-card-img" alt="FCM'S ROBERT STEWART RECIEVES A PRESTIGIOUS AWARD">
+                                <img src="assets/images/news/news-3.webp" class="w-100 h-100 news-card-img" alt="FCM'S ROBERT STEWART RECIEVES A PRESTIGIOUS AWARD">
                             </div>
                             <div class="card-body pt-4">
                                 <p class="ff-gill-sans-light text-muted mb-2 news-card-date">May 25, 2022</p>
@@ -63,7 +63,7 @@
                     <a href="news-detail.php" class="text-decoration-none d-block blog-thumb h-100">
                         <div class="card border-0 h-100 bg-transparent">
                             <div class="overflow-hidden news-card-img-wrapper">
-                                <img src="assets/images/blog/title-photo-246.jpg" class="w-100 h-100 news-card-img" alt="CORRECT INSTALLATION OF FIRE DOORS">
+                                <img src="assets/images/news/news-4.webp" class="w-100 h-100 news-card-img" alt="CORRECT INSTALLATION OF FIRE DOORS">
                             </div>
                             <div class="card-body pt-4">
                                 <p class="ff-gill-sans-light text-muted mb-2 news-card-date">March 26, 2021</p>
@@ -77,7 +77,7 @@
                     <a href="news-detail.php" class="text-decoration-none d-block blog-thumb h-100">
                         <div class="card border-0 h-100 bg-transparent">
                             <div class="overflow-hidden news-card-img-wrapper">
-                                <img src="assets/images/blog/duct-main-840.JPG" class="w-100 h-100 news-card-img" alt="CORRECT INSTALLATION OF EXTRACT DUCTS">
+                                <img src="assets/images/news/news-5.webp" class="w-100 h-100 news-card-img" alt="CORRECT INSTALLATION OF EXTRACT DUCTS">
                             </div>
                             <div class="card-body pt-4">
                                 <p class="ff-gill-sans-light text-muted mb-2 news-card-date">March 01, 2021</p>
@@ -91,7 +91,7 @@
                     <a href="news-detail.php" class="text-decoration-none d-block blog-thumb h-100">
                         <div class="card border-0 h-100 bg-transparent">
                             <div class="overflow-hidden news-card-img-wrapper">
-                                <img src="assets/images/blog/img-2185-2020-07-14-15-34-37-utc-669.JPG" class="w-100 h-100 news-card-img" alt="PAPER OR FIBRE TAPE FOR PLASTERBOARD JOINTS">
+                                <img src="assets/images/news/news-6.webp" class="w-100 h-100 news-card-img" alt="PAPER OR FIBRE TAPE FOR PLASTERBOARD JOINTS">
                             </div>
                             <div class="card-body pt-4">
                                 <p class="ff-gill-sans-light text-muted mb-2 news-card-date">February 12, 2021</p>
@@ -105,7 +105,7 @@
                     <a href="news-detail.php" class="text-decoration-none d-block blog-thumb h-100">
                         <div class="card border-0 h-100 bg-transparent">
                             <div class="overflow-hidden news-card-img-wrapper">
-                                <img src="assets/images/blog/0-1-2020-07-14-15-34-37-utc-307.jpg" class="w-100 h-100 news-card-img" alt="CORRECT PLACEMENT OF CAVITY WALL TIES">
+                                <img src="assets/images/news/news-7.webp" class="w-100 h-100 news-card-img" alt="CORRECT PLACEMENT OF CAVITY WALL TIES">
                             </div>
                             <div class="card-body pt-4">
                                 <p class="ff-gill-sans-light text-muted mb-2 news-card-date">December 09, 2020</p>
@@ -119,7 +119,7 @@
                     <a href="news-detail.php" class="text-decoration-none d-block blog-thumb h-100">
                         <div class="card border-0 h-100 bg-transparent">
                             <div class="overflow-hidden news-card-img-wrapper">
-                                <img src="assets/images/blog/img-0811-944.JPG" class="w-100 h-100 news-card-img" alt="CORRECT COMPACTION OF CONCRETE TO WALLS">
+                                <img src="assets/images/news/news-8.webp" class="w-100 h-100 news-card-img" alt="CORRECT COMPACTION OF CONCRETE TO WALLS">
                             </div>
                             <div class="card-body pt-4">
                                 <p class="ff-gill-sans-light text-muted mb-2 news-card-date">February 13, 2020</p>
