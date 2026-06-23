@@ -242,6 +242,9 @@ document.addEventListener("DOMContentLoaded", function() {
                         gsap.from(target.querySelector('#section-desc'), { opacity: 0, x: 30, duration: 0.8, ease: "power2.out", delay: 0.2 });
                         gsap.from(target.querySelector('.btn-wrapper'), { opacity: 0, y: 20, duration: 0.8, ease: "power2.out", delay: 0.4 });
                     }
+                    else if (target.classList.contains('map-section')) {
+                        gsap.from(target.querySelector('#londonMap'), { clipPath: "inset(0% 50% 0% 50%)", opacity: 0, duration: 1.5, ease: "power3.inOut" });
+                    }
                     else {
                         // Generic fallback for promo and partnership sections
                         gsap.from(target.querySelectorAll('h2, p, .primary-btn'), { opacity: 0, y: 30, duration: 0.8, stagger: 0.15, ease: "power2.out" });
@@ -253,7 +256,7 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
 
-        document.querySelectorAll('section:not(.hero-section):not(.about-hero):not(.careers-hero-section):not(.news-detail-hero):not(.news-hero-section):not(.projects-hero-section):not(.services-hero-section):not(.news-grid-section):not(.projects-grid-section):not(.services-container-section):not(.news-detail-content-section):not(.news-detail-related-news-section):not(.project-detail-selected-projects-section):not(.project-detail-hero):not(.service-detail-content-section):not(.project-detail-content-section):not(.map-section), .about-full-img-container').forEach(section => {
+        document.querySelectorAll('section:not(.hero-section):not(.about-hero):not(.careers-hero-section):not(.news-detail-hero):not(.news-hero-section):not(.projects-hero-section):not(.services-hero-section):not(.news-grid-section):not(.projects-grid-section):not(.services-container-section):not(.news-detail-content-section):not(.news-detail-related-news-section):not(.project-detail-selected-projects-section):not(.project-detail-hero):not(.service-detail-content-section):not(.project-detail-content-section), .about-full-img-container').forEach(section => {
             section.style.opacity = 0;
             scrollObserver.observe(section);
         });
