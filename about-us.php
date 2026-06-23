@@ -3,7 +3,7 @@
 
 <main>
     <!-- Hero Section -->
-    <section class="about-hero d-flex align-items-end position-relative" style="background-image: url('assets/images/about-1.webp');">
+    <section class="about-hero d-flex align-items-end position-relative" style="background-image: url('assets/images/about-2.webp');">
         <div class="overlay"></div>
         <div class="container position-relative z-1">
             <h1 class="hero-title text-white ff-baskervville fw-normal mb-0">About Us</h1>
@@ -80,7 +80,7 @@
 
     <!-- Image Full Width -->
     <div class="about-full-img-container w-100">
-        <img src="assets/images/about-2.webp" class="w-100 h-100 object-fit-cover" alt="Services Design">
+        <img src="assets/images/about-3.webp" class="w-100 h-100 object-fit-cover" alt="Services Design">
     </div>
 
     <!-- We Are Here To Help -->
