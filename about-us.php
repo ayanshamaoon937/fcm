@@ -3,7 +3,7 @@
 
 <main>
     <!-- Hero Section -->
-    <section class="about-hero d-flex align-items-end position-relative" style="background-image: url('assets/images/about.webp');">
+    <section class="about-hero d-flex align-items-end position-relative" style="background-image: url('assets/images/about-1.webp');">
         <div class="overlay"></div>
         <div class="container position-relative z-1">
             <h1 class="hero-title text-white ff-baskervville fw-normal mb-0">About Us</h1>
